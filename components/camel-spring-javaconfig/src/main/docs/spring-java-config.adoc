@@ -44,10 +44,10 @@ configuration with defined list of routes to be used by router.
 @Configuration
 public class MyRouteConfiguration extends CamelConfiguration {
 
-    @Autowire
+    @Autowired
     private MyRouteBuilder myRouteBuilder;
 
-    @Autowire
+    @Autowired
     private MyAnotherRouteBuilder myAnotherRouteBuilder;
 
     @Override
